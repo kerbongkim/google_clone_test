@@ -4,37 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Doggle</title>
+    <title>거봉쌤과 포도들!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 	<body>
 		<div class="title">
 			<span>행</span><span>복</span><span>하</span><span>세</span><span>요</span><span>!</span>
-			<span>도</span><span>글</span><span>입</span><span>니</span><span>다</span>
+			<span>도</span><span>우리</span><span>입</span><span>니</span><span>다</span>
 		</div>
 		
-		
+
+		<br><br><br>	
 		<form action="https://google.com/search" method="GET">
 			<div class="g-search-box">
 				<p class="site">
-					구글 검색창
+					구글 검색해볼래??
 				</p>
   				<input name="q" type="text">
   				<span></span>
  			</div>
 		</form>
-		
 		
 		<form action="https://search.daum.net/search" method="GET">
 			<div class="d-search-box">
 				<p class="site">
-					다음 검색창
+					다음으로 검색하기
 				</p>
   				<input name="q" type="text">
   				<span></span>
  			</div>
 		</form>
+	
+	<!-- 시계만들기 -->
+	<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+		
+	<!-- 기념일 카운트 -->
+		<br><br><br>
+	<div class="container anniversary">
+	  <h1 id="headline">기념일까지 얼마나 남았냐구요?</h1>
+	  <div id="countdown">
+	    <ul>
+	      <li><span id="days"></span>일</li>
+	      <li><span id="hours"></span>시간</li>
+	      <li><span id="minutes"></span>분</li>
+	      <li><span id="seconds"></span>초</li>
+	    </ul>
+	  </div>
+	  <div id="content" class="emoji">
+	    <span>🥳</span>
+	    <span>🎉</span>
+	    <span>🎂</span>
+	  </div>
+	</div>
+		
+		
+		
+	<script src="clock.js"></script>
+	<script src="anniversary.js"></script>
 	</body>
 </html>
 <!--

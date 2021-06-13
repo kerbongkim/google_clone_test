@@ -1,14 +1,15 @@
 
+
 .title {
 	font-weight: bold;
-	margin-top: 230px;
+	margin-top: 10px;
 	font-size: 60px;
 	text-align: center;
 }
 
 .site {
-	font-size:1.5em;
-	color: gray;
+	font-size:1.9em;
+	color: black;
 }
 
 .title span:nth-child(1) {
@@ -16,7 +17,7 @@
 }
 
 .title span:nth-child(2) {
-	color: yellow;
+	color: green;
 }
 
 .title span:nth-child(3) {
@@ -56,18 +57,23 @@ body {
   padding: 0;
   color: #0984e3;
   text-align: center;
+  background-image: url("");
+  background-size: cover;
 }
+
+
+
 
 .g-search-box {
   position: absolute;
-  top: 40%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .d-search-box {
   position: absolute;
-  top: 55%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -113,6 +119,112 @@ input[type="text"]:focus + span {
   background: none;
   transition: all .25s ease-in-out;
 }
+
+
+
+.clock {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container.anniversary {
+  align-items: center;
+  background-color: #ffd54f;
+  top: 80%;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+  top: 80%;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+}
+
 
 
 
