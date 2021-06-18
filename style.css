@@ -2,8 +2,8 @@
 
 .title {
 	font-weight: bold;
-	margin-top: 10px;
-	font-size: 60px;
+	margin-top: 50px;
+	font-size: 100px;
 	text-align: center;
 }
 
@@ -13,11 +13,11 @@
 }
 
 .title span:nth-child(1) {
-	color: green;
+	color: red;
 }
 
 .title span:nth-child(2) {
-	color: green;
+	color: orange;
 }
 
 .title span:nth-child(3) {
@@ -66,14 +66,14 @@ body {
 
 .g-search-box {
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .d-search-box {
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -224,7 +224,6 @@ li span {
     font-size: 3.375rem;
   }
 }
-
 
 
 
